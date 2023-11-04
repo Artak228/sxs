@@ -1,32 +1,33 @@
 .div {
-    width: 200px;
+    width: 55px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align:center;
-  height: 200px;
+  height: 55px;
   border-radius: 25%;
   background-color: lightgreen;
   color: white;
-  font-size: 80px;
-  border: solid 5px white;
+  font-size: 22px;
+  border: solid 3px white;
+  margin-bottom: 20px;
+  margin: 5px 0;
   
 }
 
-.div1{
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align:center;
-  height: 200px;
-  border-radius: 25%;
-  background-color: rgb(223, 75, 75);
-  color: white;
-  font-size: 80px;
-  border: solid 5px white;
-  margin-top: 20px;
+.but{
   
+width: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+height: 55px;
+border-radius: 25%;
+background-color: rgb(206, 71, 71);
+color: white;
+font-size: 22px;
+border: solid 3px white;
 
 }
 body{
