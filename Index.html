@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <form class="form">
+      <p class="title">Анкета программиста</p>
+      <hr>
+      <p class="p">Язык программирования</p>
+      <select class="select" id="select">
+        <option value="error">Выберите язык</option>
+        <option value="C++">C++</option>
+        <option value="HTML">HTML</option>
+        <option value="Python">Python</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="C#">C#</option>
+      </select>
+      <hr>
+      <div class="p">Ваше имя</div>
+      <input type="text" id="name">
+      <div class="p">Ваш email</div>
+      <input type="email" id="email">
+      <div class="p">Пароль</div>
+      <input  type="password" id="pass">
+      <br>
+      <button type="button" class="button" id="go" onclick="fun()">Готово</button>
+      <button type="reset" id="clear">Очистить</button>
+      <br>
+      <hr>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
