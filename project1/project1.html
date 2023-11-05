@@ -6,13 +6,21 @@
     <link rel="stylesheet" href="project.css"/>
   </head>
   <body>
-    <button class="div" onclick="fun()">YES</button>
-      <button class="but" onclick="fun()">NO</button>
+    <input type="text" id="txt" class="text"/>
+    <div class="cont">
+      <button class="div" onclick="fun()">YES</button>
+      
+    </div>
+    <div class="cont">
+    <button class="but" onclick="fun()">NO</button>
+    </div>
   </body>
   <script>
     function fun(){
-      alert("wjdwd")
-    }
+      let txt = document.getElementById('txt');
+      let tx2 = txt.value;
+      alert(tx2);
+   }
   </script>
 </html>
 
