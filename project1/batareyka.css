@@ -1,0 +1,38 @@
+.b {
+    width: 150px;
+    height: 50px;
+    border: 6px solid #000;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.b::before, .b::after{
+    content: '';
+    position: absolute;
+}
+
+.b::after{
+    width: 10px;
+    height: 20px;
+    background: #000;
+    right: -10px; top: 15px;
+}
+
+.b::before{
+    height: 100%;
+}
+
+.red::before{
+    width: 23%;
+    background: red;
+}
+
+.yellow::before{
+    width: 58%;
+    background: yellow;
+}
+
+.green::before{
+    width: 100%;
+    background: lime;
+}
